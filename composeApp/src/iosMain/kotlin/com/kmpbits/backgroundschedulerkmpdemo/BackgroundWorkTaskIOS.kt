@@ -25,6 +25,6 @@ fun registerTask() {
 @OptIn(ExperimentalForeignApi::class)
 private fun scheduleAppRefreshTask() {
     val request = BGAppRefreshTaskRequest(identifier = Constants.TASK_IDENTIFIER)
-    request.earliestBeginDate = NSDate().dateByAddingTimeInterval(Constants.TASK_TIMER_SECONDS.toDouble())
+    request.earliestBeginDate = NSDate().dateByAddingTimeInterval((Constants.TASK_TIMER_SECONDS * 60).toDouble()) // 15 minutes
     BGTaskScheduler.sharedScheduler.submitTaskRequest(request, null)
 }
