@@ -10,7 +10,6 @@ A minimalist **Kotlin Multiplatform (KMP)** demo showcasing how to run **backgro
 
 - ✅ **WorkManager Integration**: Schedule periodic tasks on Android with constraints.
 - 🍏 **BGTaskScheduler Setup**: Register and handle background tasks on iOS.
-- 🔗 **Shared API**: Use KMP `expect/actual` to bridge background work logic.
 - 🧩 **Minimal Example**: Easy to fork, run, and adapt to your app.
 
 ---
