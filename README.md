@@ -1,4 +1,4 @@
-# BackgroundSyncDemo
+# BackgroundSchedulerKMPDemo
 
 A minimalist **Kotlin Multiplatform (KMP)** demo showcasing how to run **background sync tasks** using **WorkManager** on Android and **BGTaskScheduler** on iOS.
 
@@ -28,7 +28,7 @@ A minimalist **Kotlin Multiplatform (KMP)** demo showcasing how to run **backgro
 
 ```bash
 git clone https://github.com/kmpbits/backgroundSyncDemo.git
-cd backgroundSyncDemo
+cd BackgroundSchedulerKMPDemo
 ```
 
 2️⃣ **Open in Android Studio**  
